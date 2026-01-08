@@ -4,82 +4,140 @@
     <meta charset="UTF-8">
     <title>Aarti Kulkarni | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
 
-<header>
-    <h1>Aarti Kulkarni</h1>
-    <p>B.Tech Information Technology Student</p>
+<header class="header">
+    <a href="#" class="logo">Portfolio.</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        I am a motivated B.Tech Information Technology student with a strong interest in
-        web development and software development. I enjoy building user-friendly websites
-        and learning new technologies. I am eager to apply my technical knowledge in
-        real-world projects and continuously improve my skills.
-    </p>
-</section>
-
-<section>
-    <h2>Skills</h2>
-    <ul class="skills">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Java</li>
-         <li>C</li>
-        <li>MySQL</li>
-        <li>DBMS Concepts</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Projects</h2>
-
-    <div class="project">
-        <h3>WorkForce Manager</h3>
+<!-- HOME -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h1><span>Aarti Kulkarni</span></h1>
+        <h3>Aspiring Software Developer</h3>
         <p>
-            A workforce management system with modules to add, update, delete,
-            and view employee details using a structured database.
+            Passionate about software development with a strong interest in building reliable applications.
+            Hands-on experience in programming, problem-solving, and application design.
+            Focused on writing clean, maintainable, and efficient code.
         </p>
+
+        <div class="btn-box">
+            <a href="Resume.pdf" download>Download Resume</a>
+        </div>
     </div>
 
-    <div class="project">
-        <h3>Tours and Travels Website</h3>
-        <p>
-            A responsive travel website showcasing tour packages, destinations,
-            and travel services with a clean UI.
-        </p>
-    </div>
-
-    <div class="project">
-        <h3>E-Grocery Website</h3>
-        <p>
-            An online grocery platform that allows users to browse products,
-            categories, and place basic orders.
-        </p>
+    <div class="home-img">
+        <img src="profile.jpeg" alt="Aarti Kulkarni">
     </div>
 </section>
 
-<section>
-    <h2>Internship & Training</h2>
-    <p>
-        Selected for an internship at <strong>Satish IT Services</strong>, where I aim to gain
-        hands-on experience and practical exposure to real-world IT applications.
-    </p>
+<!-- EDUCATION -->
+<section class="education" id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="education-container">
+
+        <div class="edu-card">
+            <h3>B.Tech – Information Technology</h3>
+            <p class="college">M.S. Bidve College of Engineering, Latur</p>
+            <p>Pursuing (Final Year)</p>
+            <p><strong>Current CGPA:</strong> 8.26</p>
+        </div>
+
+        <div class="edu-card">
+            <h3>Diploma – Computer Engineering</h3>
+            <p class="college">VAPM Almala</p>
+            <p>Completed</p>
+            <p><strong>Percentage:</strong> 87.26%</p>
+        </div>
+
+    </div>
 </section>
 
-<section>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:aartikulkarni123456@gmail.com">aartikulkarni123456@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/aartikulkarni123456-ui" target="_blank">github.com/aartikulkarni123456-ui</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/aarti-kulkarni-1576a0388" target="_blank">linkedin.com/in/aarti-kulkarni</a></p>
+<!-- SKILLS -->
+<section class="skills" id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skills-card">
+            <h3>Technical Skills</h3>
+            <div class="skills-box">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Java</span>
+                <span>C</span>
+                <span>C++</span>
+                <span>SQL</span>
+            </div>
+        </div>
+
+        <div class="skills-card">
+            <h3>Soft Skills</h3>
+            <div class="skills-box">
+                <span>Communication</span>
+                <span>Team Work</span>
+                <span>Positive Attitude</span>
+                <span>Quick Learner</span>
+                
+            </div>
+        </div>
+
+    </div>
 </section>
 
-<footer>
-    <p>© 2026 Aarti Kulkarni | All Rights Reserved</p>
-</footer>
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-container">
+        <div class="project-card">
+            <h3>WorkForce Manager</h3>
+            <p>Workforce management system with CRUD database operations.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Tours & Travels Website</h3>
+            <p>Responsive travel website showcasing tour packages.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>E-Grocery Website</h3>
+            <p>Online grocery platform with product listing and orders.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-icons">
+        <a href="mailto:aartibalasahebkulkarni@gmail.com">
+            <i class='bx bx-envelope'></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/aarti-kulkarni-1576a0388/" 
+   target="_blank" rel="noopener noreferrer">
+    <i class='bx bxl-linkedin'></i>
+</a>
+
+
+        <a href="https://github.com/aartikulkarni123456-ui" target="_blank" rel="noopener noreferrer">
+            <i class='bx bxl-github'></i>
+        </a>
+    </div>
+</section>
 
 </body>
 </html>
