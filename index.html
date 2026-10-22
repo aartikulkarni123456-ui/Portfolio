@@ -1,21 +1,27 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aarti Kulkarni | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aarti Kulkarni's portfolio featuring Data Analytics, Python and software development projects.">
+    <title>Aarti Kulkarni | Professional Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
 
+<!-- NAVBAR -->
 <header class="header">
-    <a href="#" class="logo">Portfolio.</a>
+    <a href="#home" class="logo">Aarti<span>.</span></a>
 
     <nav class="navbar">
         <a href="#home">Home</a>
+        <a href="#about">About Me</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#certificates">Achievements</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
@@ -23,16 +29,24 @@
 <!-- HOME -->
 <section class="home" id="home">
     <div class="home-content">
-        <h1><span>Aarti Kulkarni</span></h1>
-        <h3>Aspiring Software Developer</h3>
+        <p class="subtitle">B.TECH IT GRADUATE | FRESHER</p>
+
+        <h1>Hi, I'm <span>Aarti Kulkarni</span></h1>
+
+        <h3>Data Analytics & Software Development</h3>
+
         <p>
-            Passionate about software development with a strong interest in building reliable applications.
-            Hands-on experience in programming, problem-solving, and application design.
-            Focused on writing clean, maintainable, and efficient code.
+            I am an Information Technology graduate interested in
+            data analytics, dashboard development and software development.
+            I have knowledge of SQL, Python, Power BI and Excel basics.
+            I am eager to learn new technologies and contribute to a
+            professional team.
         </p>
 
         <div class="btn-box">
-            <a href="Resume.pdf" download>Download Resume</a>
+            <a href="#projects" class="btn">Explore Projects</a>
+            <a href="Resume.pdf" class="btn btn-outline"
+               target="_blank" rel="noopener noreferrer">View Resume</a>
         </div>
     </div>
 
@@ -41,103 +55,265 @@
     </div>
 </section>
 
+<!-- ABOUT ME -->
+<section class="about" id="about">
+    <h2 class="section-title">About <span>Me</span></h2>
+
+    <div class="about-content">
+        <p>
+            I am a B.Tech graduate in Information Technology with an
+            interest in Data Analytics and Software Development.
+            I enjoy working with data, creating dashboards and building
+            practical applications.
+        </p>
+
+        <p>
+            Through academic and personal projects, I have gained
+            exposure to SQL, Python, Power BI, database management
+            and web development. I am looking for a full-time fresher
+            opportunity where I can apply my knowledge and continue learning.
+        </p>
+    </div>
+</section>
+
 <!-- EDUCATION -->
 <section class="education" id="education">
-    <h2 class="section-title">Education</h2>
+    <h2 class="section-title">My <span>Education</span></h2>
 
     <div class="education-container">
-
         <div class="edu-card">
-            <h3>B.Tech – Information Technology</h3>
-            <p class="college">M.S. Bidve College of Engineering, Latur</p>
-            <p>Pursuing (Final Year)</p>
-            <p><strong>Current CGPA:</strong> 8.26</p>
+            <h3>B.Tech - Information Technology</h3>
+            <p class="college">M. S. Bidve Engineering College, Latur</p>
+            <p>Completed</p>
         </div>
 
         <div class="edu-card">
-            <h3>Diploma – Computer Engineering</h3>
-            <p class="college">VAPM Almala</p>
+            <h3>Diploma - Computer Engineering</h3>
+            <p class="college">VAPM, Almala</p>
             <p>Completed</p>
             <p><strong>Percentage:</strong> 87.26%</p>
         </div>
-
     </div>
 </section>
 
 <!-- SKILLS -->
 <section class="skills" id="skills">
-    <h2 class="section-title">Skills</h2>
+    <h2 class="section-title">Technical <span>Skills</span></h2>
 
     <div class="skills-container">
+        <div class="skills-card">
+            <i class="bx bx-bar-chart-alt-2"></i>
+            <h3>Data Analytics</h3>
+            <div class="skills-box">
+                <span>SQL</span>
+                <span>Power BI</span>
+                <span>Excel Basics</span>
+            </div>
+        </div>
 
         <div class="skills-card">
-            <h3>Technical Skills</h3>
+            <i class="bx bx-code-alt"></i>
+            <h3>Programming</h3>
             <div class="skills-box">
-                <span>HTML</span>
-                <span>CSS</span>
+                <span>Python Basics</span>
                 <span>Java</span>
                 <span>C</span>
-                <span>C++</span>
-                <span>SQL</span>
+                <span>HTML</span>
+                <span>CSS</span>
             </div>
         </div>
 
         <div class="skills-card">
-            <h3>Soft Skills</h3>
+            <i class="bx bx-data"></i>
+            <h3>Database & Tools</h3>
             <div class="skills-box">
-                <span>Communication</span>
-                <span>Team Work</span>
-                <span>Positive Attitude</span>
-                <span>Quick Learner</span>
-                
+                <span>MySQL</span>
+                <span>Power BI</span>
+                <span>VS Code</span>
+                <span>GitHub</span>
             </div>
         </div>
 
+        <div class="skills-card">
+            <i class="bx bx-user-check"></i>
+            <h3>Professional Skills</h3>
+            <div class="skills-box">
+                <span>Teamwork</span>
+                <span>Communication</span>
+                <span>Quick Learner</span>
+                <span>Problem Solving</span>
+            </div>
+        </div>
     </div>
 </section>
 
 <!-- PROJECTS -->
 <section class="projects" id="projects">
-    <h2 class="section-title">Projects</h2>
+    <h2 class="section-title">My <span>Projects</span></h2>
 
     <div class="project-container">
+
         <div class="project-card">
-            <h3>WorkForce Manager</h3>
-            <p>Workforce management system with CRUD database operations.</p>
+            <i class="bx bx-bar-chart-alt-2"></i>
+            <h3>E-Commerce Sales Dashboard</h3>
+            <p class="project-tech">Power BI | Data Analytics</p>
+            <p>
+                An interactive dashboard to analyse sales performance,
+                regional trends, customer insights and order data.
+            </p>
+            <!-- Replace # with the actual project repository URL -->
+            <a href="https://github.com/aartikulkarni123456-ui"
+               target="_blank" rel="noopener noreferrer">View Project
+               <i class="bx bx-link-external"></i></a>
         </div>
 
         <div class="project-card">
+            <i class="bx bx-hotel"></i>
+            <h3>Hotel Booking Analysis</h3>
+            <p class="project-tech">Python | Data Analysis</p>
+            <p>
+                Analysis of hotel booking data to explore cancellation
+                patterns, booking trends and average daily rates.
+            </p>
+            <!-- Replace # with the actual project repository URL -->
+            <a href="https://github.com/aartikulkarni123456-ui"
+               target="_blank" rel="noopener noreferrer">View Project
+               <i class="bx bx-link-external"></i></a>
+        </div>
+
+        <div class="project-card">
+            <i class="bx bx-briefcase"></i>
+            <h3>JobConnect Job Portal</h3>
+            <p class="project-tech">Python | Django | MySQL</p>
+            <p>
+                A job portal project with job listings, search,
+                user authentication and job application functionality.
+            </p>
+            <!-- Replace # with the actual project repository URL -->
+            <a href="https://github.com/aartikulkarni123456-ui"
+               target="_blank" rel="noopener noreferrer">View Project
+               <i class="bx bx-link-external"></i></a>
+        </div>
+
+        <div class="project-card">
+            <i class="bx bx-laptop"></i>
+            <h3>Online Examination System</h3>
+            <p class="project-tech">React | PHP | MySQL</p>
+            <p>
+                An academic web application for online examinations,
+                question management and student exam activities.
+            </p>
+            <!-- Replace # with the actual project repository URL -->
+            <a href="https://github.com/aartikulkarni123456-ui"
+               target="_blank" rel="noopener noreferrer">View Project
+               <i class="bx bx-link-external"></i></a>
+        </div>
+
+        <div class="project-card">
+            <i class="bx bx-globe"></i>
             <h3>Tours & Travels Website</h3>
-            <p>Responsive travel website showcasing tour packages.</p>
+            <p class="project-tech">HTML | CSS | JavaScript</p>
+            <p>
+                A travel website project showcasing tour packages
+                and travel-related information.
+            </p>
+            <a href="https://github.com/aartikulkarni123456-ui"
+               target="_blank" rel="noopener noreferrer">View Project
+               <i class="bx bx-link-external"></i></a>
         </div>
 
         <div class="project-card">
+            <i class="bx bx-cart"></i>
             <h3>E-Grocery Website</h3>
-            <p>Online grocery platform with product listing and orders.</p>
+            <p class="project-tech">Web Development</p>
+            <p>
+                An academic project focused on displaying grocery
+                products and providing an online shopping interface.
+            </p>
+            <a href="https://github.com/aartikulkarni123456-ui"
+               target="_blank" rel="noopener noreferrer">View Project
+               <i class="bx bx-link-external"></i></a>
         </div>
+
+    </div>
+</section>
+
+<!-- CERTIFICATES & ACHIEVEMENTS -->
+<section class="certificates" id="certificates">
+    <h2 class="section-title">Certificates & <span>Achievements</span></h2>
+
+    <div class="certificate-container">
+
+        <div class="certificate-card">
+            <i class="bx bx-award"></i>
+            <h3>IT Internship</h3>
+            <p>
+                Completed an internship at SIT IT Services.
+            </p>
+            <!-- Add a certificate link if you upload the certificate -->
+        </div>
+
+        <div class="certificate-card">
+            <i class="bx bx-book-open"></i>
+            <h3>Research Paper Publication</h3>
+            <p>
+                Published a research paper related to an academic project.
+            </p>
+            <!-- Add the publication link when available -->
+        </div>
+
+    </div>
+</section>
+
+<!-- RESUME -->
+<section class="resume" id="resume">
+    <h2 class="section-title">My <span>Resume</span></h2>
+
+    <div class="resume-content">
+        <p>
+            Interested in my profile? View or download my updated resume
+            to learn more about my education, skills and projects.
+        </p>
+
+        <a href="DA.pdf" class="btn"
+           target="_blank" rel="noopener noreferrer">
+            <i class="bx bx-download"></i> View / Download Resume
+        </a>
     </div>
 </section>
 
 <!-- CONTACT -->
 <section class="contact" id="contact">
-    <h2 class="section-title">Contact</h2>
+    <h2 class="section-title">Contact <span>Me</span></h2>
+
+    <p class="contact-text">
+        I am open to full-time fresher opportunities in Data Analytics
+        and Software Development.
+    </p>
 
     <div class="contact-icons">
-        <a href="mailto:aartibalasahebkulkarni@gmail.com">
-            <i class='bx bx-envelope'></i>
+        <a href="mailto:aartibalasahebkulkarni@gmail.com"
+           aria-label="Email">
+            <i class="bx bx-envelope"></i>
         </a>
 
-        <a href="https://www.linkedin.com/in/aarti-kulkarni-1576a0388/" 
-   target="_blank" rel="noopener noreferrer">
-    <i class='bx bxl-linkedin'></i>
-</a>
+        <a href="https://www.linkedin.com/in/aarti-kulkarni-1576a0388/"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="LinkedIn">
+            <i class="bx bxl-linkedin"></i>
+        </a>
 
-
-        <a href="https://github.com/aartikulkarni123456-ui" target="_blank" rel="noopener noreferrer">
-            <i class='bx bxl-github'></i>
+        <a href="https://github.com/aartikulkarni123456-ui"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="GitHub">
+            <i class="bx bxl-github"></i>
         </a>
     </div>
 </section>
+
+<footer class="footer">
+    <p>© 2026 Aarti Kulkarni. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
